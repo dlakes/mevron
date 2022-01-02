@@ -4,11 +4,8 @@ This is a simple Request Ride APIs with NodeJs Express framework.
 ## Getting Started
 You can download this repo or clone using below command. (folder-name will be project folder in which you want to start your project).
 ```
-git clone https://github.com/.git <folder-name>
+git clone https://github.com/dlakes/mevron.git <folder-name>
 ```
-or from **Download Zip**
-```
-https://github.com/b 
 ```
 ### Project Setup
 Once you clone or download project go into you folder
@@ -21,19 +18,17 @@ Once you clone or download project go into you folder
 ```
 
 ### Database Config Setup
-Create new database (let's say i'm going to use mysql and my database name is **express-sequelize-api**).
+Create new database (let's say i'm going to use mysql and my database name is **mevron**).
 so in my **.env** file will set below parameters.
 ```
 DB_HOST=localhost               # database connection host
 DB_USER=root                    # database username
-DB_PASS=secret@123              # database password
-DB_NAME=express-sequelize-api   # database name
+DB_PASS=                        # database password
+DB_NAME=mevron                  # database name
 DB_PORT=3306                    # database port
 ```
 some other inportant parameters/keys in **.env** file
 ```
-APP_HOST=localhost      # application host name
-APP_PORT=3000           # application port
 SECRET=secret           # secret key for encrypt/decrypt JWT token
 ```
 
