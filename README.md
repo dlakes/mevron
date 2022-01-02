@@ -1,5 +1,5 @@
 # Mevron API 
-This is a simple Request Ride APIs with NodeJs Express framework.
+This is a simple Request Ride APIs built with NodeJs Express framework.
 
 ## Getting Started
 You can download this repo or clone using below command. (folder-name will be project folder in which you want to start your project).
@@ -32,7 +32,6 @@ some other inportant parameters/keys in **.env** file
 SECRET=secret           # secret key for encrypt/decrypt JWT token
 ```
 
-
 ### Migration and Seeders run
 After creating database and updating .env file run below commands
 ```
@@ -41,13 +40,13 @@ After creating database and updating .env file run below commands
 Migration will create users, oauth, ride_request and cars tables
 
 `npm start` to run your project 
->Everythig is setup:)
+Everythig is setup:)
 
 ```
 
-## Middlewares
+## Documentation URL
 ```
-> Passport: this will check user access token that we have return in login response.
+https://documenter.getpostman.com/view/2108248/UVRHj3g3.
 ```
 ### Login
 ```
