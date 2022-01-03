@@ -37,12 +37,12 @@ After creating database and updating .env file run below commands
 ```
 > npm run migrate
 ```
+Migration will create users, oauth, ride_request and cars tables
+
 
 ### Log File
 Create a file named as access.log in the root directory.
 ```
-
-Migration will create users, oauth, ride_request and cars tables
 
 `npm start` to run your project 
 Everythig is setup:)
